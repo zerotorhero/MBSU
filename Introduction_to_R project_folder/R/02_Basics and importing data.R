@@ -25,13 +25,14 @@ rm(list=ls())
 # A directory is a folder and the instructions (path) to get to that folder
 # The working directory is the folder from which R will read files
 # and to which R will save files
-setwd("~/Desktop/PhD/FALL 2011/Stats workshop - Day 2/Data_Intro Day 2")
+#setwd("~/Desktop/PhD/FALL 2011/Stats workshop - Day 2/Data_Intro Day 2")
+#This is not necessary when using RStudio projects
   
 
 # 3. DATA IMPORT
 # First we will import "clean" data in a csv file
 
-iris_data<-read.csv("iris_good.csv") 
+iris_data<-read.csv("./Data/iris_good.csv") 
 # "iris_good.csv" is the complete file name, where ".csv" is the file's extension
 
 # Look at...
